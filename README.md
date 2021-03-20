@@ -60,3 +60,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Información
+
+Aplicación realizada con Laravel 8.33, Pusher y Laravel Echo para el envío de mensajes entre clientes
+
+## Método de uso
+
+- **php artisan websockets:serve** -> Para habilitar el servidor de las comunicaciones
+- Iniciar sesión o registrarse.
+- Para chatear con una persona, escribir la URL: **/chat/with/{id del otro usuario}**, esto creará una sala de chat nueva si no existiía una anteriormente o cargará la antigua sala.
+- **/admin/dashboard**: muestra el panel de control de Pusher
